@@ -10,7 +10,7 @@ export default createGlobalStyle`
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: green;
+    background-color: rgb(121, 32, 5);
     color: black;
   }
   
