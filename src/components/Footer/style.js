@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const FooterStyle = styled.footer`
     display: flex;
-    align-items: center;       
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: space-between;
     background-color: #000;
     width: 100%;
     height: 180px;
@@ -12,18 +12,24 @@ export const FooterStyle = styled.footer`
     bottom: 0;
     left: 0;
     z-index: 1000;
-`
+`;
 
 export const ContatoInfo = styled.div`
     display: flex;
-    justify-content: flex-end;
-    align-items: center;   
     flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
     gap: 8px;
     color: white;
-    width: 100%;
     padding: 10px;
-    p{
-        margin-bottom: 10px;
+    p {
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
-`
+`;
+
+export const Logo = styled.img`
+    height: 80%;
+    margin: 0 18px;
+`;
