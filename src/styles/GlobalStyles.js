@@ -12,6 +12,8 @@ export default createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     background-color: rgb(121, 32, 5);
     color: black;
+    display: flex;
+    align-items: center;
   }
   
   code {
