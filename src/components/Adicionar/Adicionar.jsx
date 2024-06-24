@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Container, Input, Title, Instruction, InputBox, Selector} from './style';
+import { Container, Input, Title, Instruction, InputBox, Selector, Button} from './style';
 
 
 const Adicionar = () => {
@@ -20,6 +20,12 @@ const Adicionar = () => {
           <Instruction>Descrição</Instruction>
           <Input type="text" placeholder="Descrição curta"></Input>
         </InputBox>
+
+        <Selector>
+          <option>teste</option>
+        </Selector>
+
+        <Button>Enviar</Button>
         
       </Container>
     );

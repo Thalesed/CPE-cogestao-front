@@ -42,8 +42,26 @@ export const Instruction = styled.p`
     text-decoration: bold;
 `
 
-export const Selector = styled.input`
+export const Selector = styled.select`
     background-color: transparent;
     color: white;
+    padding-left: 10px;
+    width: 30%;
+    border-radius: 5px;
+`
+
+export const Button = styled.button`
+    background-color: rgb(238, 138, 8);
+    color: white;
+    padding: 12px 40px;
+    border-color: transparent;
+    border-radius: 5px;
+    margin: 25px;
+    cursor: pointer;
+    
+    &:hover{
+        transform: scale(1.2);
+        transition: 1s;
+    }
 `
 
