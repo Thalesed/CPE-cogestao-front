@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Container, Input, Title } from './style';
+import { Container, Input, Title, Instruction, InputBox, Selector} from './style';
 
 
 const Adicionar = () => {
@@ -8,10 +8,19 @@ const Adicionar = () => {
     return (
       <Container>
         <Title>Adicionar Eventos</Title>
-        <Input type="text" placeholder="Evento"></Input>
-        <Input type="text" placeholder="https://"></Input>
-        <Input type="text" placeholder="Descrição curta"></Input>
-
+        <InputBox>
+          <Instruction>Título</Instruction>
+          <Input type="text" placeholder="Evento"></Input>
+        </InputBox>
+        <InputBox>
+          <Instruction>Imagem</Instruction>
+          <Input type="text" placeholder="https://"></Input>
+        </InputBox>
+        <InputBox>
+          <Instruction>Descrição</Instruction>
+          <Input type="text" placeholder="Descrição curta"></Input>
+        </InputBox>
+        
       </Container>
     );
   };

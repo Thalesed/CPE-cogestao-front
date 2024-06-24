@@ -16,12 +16,34 @@ export const Title = styled.h1`
     text-decoration: underline;
     color: white;
 `
+export const InputBox = styled.div`
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    margin: 0;
+    width: 100%;
+`
+
 export const Input = styled.input`
     background-color: transparent;
     border: 1px solid #fff;
     width: 100%;
     padding-top: 10px;
     color: #fff;
-    margin: 10px;
+    margin-bottom: 10px;
     line-height: 1.5;
+    
 `
+
+export const Instruction = styled.p`
+    color: white;
+    margin: 0;
+    right: 0;
+    text-decoration: bold;
+`
+
+export const Selector = styled.input`
+    background-color: transparent;
+    color: white;
+`
+
