@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import { Button, HeaderStyle, Logo, ButtonContainer} from './style';
-import LogoPng from './Logo.png'
+import { Button, HeaderStyle, Logo, ButtonContainer} from './Styles';
+import LogoPng from '../../assets/Logo.png'
 
 const Header = () => {
     

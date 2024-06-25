@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import { Container, Input, Title, Instruction, InputBox, Selector, Button} from './style';
+import { Container, Input, Title, Instruction, InputBox, Selector, Button} from './Styles';
 
 
 const Adicionar = () => {

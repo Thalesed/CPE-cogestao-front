@@ -14,7 +14,7 @@ export const FooterStyle = styled.footer`
     z-index: 1000;
 `;
 
-export const ContatoInfo = styled.div`
+export const ContactInfo = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-end;

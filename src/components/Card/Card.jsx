@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import {Box, Description, Img, Title} from './style';
+import {Box, Description, Img, Title} from './Styles';
 
 
 const Card = () => {

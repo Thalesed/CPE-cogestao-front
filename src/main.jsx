@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import GlobalStyles from "./styles/GlobalStyles";
+import GlobalStyles from "./Styles/GlobalStyles";
 
 import Routes from "./routes.jsx";
 
@@ -18,11 +18,15 @@ const queryClient = new QueryClient({
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <GlobalStyles />
-      <Routes />
-      <ReactQueryDevtools />
-    </QueryClientProvider>
-  </React.StrictMode>
+  <>
+  <GlobalStyles />
+    <React.StrictMode>
+      <QueryClientProvider client={queryClient}>
+        <GlobalStyles />
+        <Routes />
+        <ReactQueryDevtools />
+      </QueryClientProvider>
+    </React.StrictMode>
+  </>
+
 );
